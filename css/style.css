@@ -2,7 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Playfair Display', serif !important;
+font-family: 'Playfair Display', serif;
 }
 body{
 width: 100%;
@@ -49,7 +49,7 @@ padding: 10px;
 }
 
 .next{
-left: 200px;
+left: 250px;
 }
 .watch{
   right: 220px;
@@ -76,6 +76,7 @@ list-style-type: none;
 .title{
   font-size: 36px;
   padding-bottom: 40px;
+  font-weight: bolder;
 }
 .right-sidebar li:not(:first-child){
 padding: 6px 0;
@@ -113,8 +114,8 @@ animation: fly 4s ease-in-out infinite;
 .left-sidebar{
   left: 60px;
   position: absolute;
-  top: 46%;
-  transform: translateY(-50);
+  top: 47%;
+  transform: translateY(-50%);
   text-align: left;
   width: 26%;
 }
